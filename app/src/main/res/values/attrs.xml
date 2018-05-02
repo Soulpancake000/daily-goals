@@ -15,6 +15,7 @@
             format="string"/>
         <attr name="codes"
             format="integer"/>
+        app:cardBackgroundColor="@android:color/transparent"
     </declare-styleable>
 
     <!--<declare-styleable name="CustomTextView">

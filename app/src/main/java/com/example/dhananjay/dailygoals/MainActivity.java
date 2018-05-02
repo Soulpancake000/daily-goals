@@ -51,9 +51,10 @@ public class MainActivity extends AppCompatActivity {
         item1List.add(new Items1("STUDY"+"\n"+"3:00"));
         item1List.add(new Items1("GAMES"+"\n"+"6:00"));
         item1List.add(new Items1("DINNER"+"\n"+"9:00"));
-        item2List.add(new Items2(R.drawable.tick));
+        item2List.add(new Items2(R.drawable.checked));
         item2List.add(new Items2(R.drawable.wrong));
         item3List.add(new Items3(R.drawable.achievements));
+
 
         LinearLayoutManager layoutmanager=new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
         RecyclerView.LayoutManager rvlayoutmanager=layoutmanager;
